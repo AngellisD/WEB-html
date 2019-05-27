@@ -1,0 +1,123 @@
+body {
+    background: lightgray;
+}
+
+.container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.skyblue {
+    background: #fff;
+}
+
+.box {
+    padding: 10px;
+    background; gray;
+    margin-top:0px;
+    margin-left:35px;
+    margin-right:35px;
+    margin-bottom:20px;
+    align-content:center;
+}
+
+
+.navbar {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding:25px;
+    background: #fff;
+}
+
+.navbar li {
+    display: d-block;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    float: left;
+    height: 35px;
+    padding: 30px ; 
+    font-size: 20px;
+    line-height: 15px;
+    color: white;
+    background-color: rgb(87, 175, 147);
+}
+
+
+
+.h1.navbar-title {
+    float: left;
+    height: 35px;
+    padding: 30px ; 
+    font-size: 20px;
+    line-height: 15px;
+    color: white;
+    background-color: rgb(87, 175, 147);
+}
+
+h1 {
+    font-size: 35px;
+    color:teal;(128, 0, 11);
+} 
+
+h2 {
+    font-size:30px;
+    color:teal
+}
+
+p {
+    font-size:25px;
+    color:gray;
+    background: white;
+    padding: 10px;
+}
+.text-muted {
+    background:lightblue;
+}
+
+@media (max-width: 480px) {
+    .navbar li {
+        padding:10px;
+        margin-top:0;
+    }
+    .box {
+        margin-right: 15px;
+        margin-left: 15px;
+        color:teal;
+        background:white;
+    }
+    .navbar ul {
+        visibility: hidden;
+        padding-bottom:30px;
+    }
+
+#nav-select {
+    visibility: visible;
+}
+
+    
+}
+/* For Desktop */
+.col-1 {widht: 8.33%;}
+.col-2 {widht: 16.66%;}
+.col-3 {widht: 25%;}
+.col-4 {widht: 33.33%;}
+.col-5 {widht: 41.66%;}
+.col-6 {widht: 50%;}
+.col-7 {widht: 58.33%;}
+.col-8 {widht: 66.66%;}
+.col-9 {widht: 75%;}
+.col-10 {widht: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+ 

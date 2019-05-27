@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Latitude vs. Max Temperature</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">LATITUDE</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown">Plots
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="visualization1.html">Latitude vs Max Temperature</a></li>
+                        <li><a href="Visualization2.html">Latitude vs Humidity</a></li>
+                        <li><a href="Visualization3.html">Latitude vs Cloudiness</a></li>
+                        <li><a href="Visualization4.html">Latitude vs Wind Speed</a></li>
+                    </ul>
+                </li>
+                <li><a href="comparison.html">Comparison</a></li>
+                <li><a href="data.html">Data</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class='container-fluid'>
+        <div class='row justify-content-around'>
+            <div class='row'>
+                <div class='col-md-8'>
+                    <div class='card mb=4'>
+                        <div class='card-header'>
+                            <h1 class='title'>Summary: Latitude vs. X</h1>
+                        </div>
+                        <div class='content'>
+                            <img src='Resources/assets/images/Fig1.png' alt='Latitude vs. Max Temperature' height="220" widht="220" align="left">
+                                
+                            
+                            <p class='category'>
+                                The purpose of this project was to analyze how weather changes as you get closer to the equator.
+                                To accomplish this analysis, we first pulled data from the OpenWeatherMapAPI to assemble a dataset
+                                on over 500 cities. 
+
+                               <p class='category'> 
+                                The data shows that Max Temperature decreases in tandem with average distance from the equator as measured in Latitude on the chart.
+                            </p>
+                            <p class='category'> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, windspeed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='col-md-4'>
+                    <div class='box'>
+                        <div class='card-header'>
+                            <h1 class='title'>Visualizations</h1>
+                        </div>
+                        <div class='content'>
+                            <a href="Visualization1.html"><img src=Resources/assets/images/Fig1.png
+                                    alt='Latitude vs. Max Temperature' height='160' width='160'></a>
+                            <a href="Visualization2.html"><img src=Resources/assets/images/Fig2.png
+                                    alt='Latitude vs. Humidity ' height='160' width='160'></a>
+                            <a href="Visualization3.html"><img src=Resources/assets/images/Fig3.png
+                                    alt='Latitude vs. Cloudiness' height='160' width='160'></a>
+                            <a href="Visualization4.html"><img src=Resources/assets/images/Fig4.png
+                                    alt='Latitude vs. Wind Speed' height='160' width='160'></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class='footer navbar-fixed-bottom'>
+        <p class='text-muted text-muted-footed text-center'>&copy; Copyright Coding Bootcamp 2017</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
